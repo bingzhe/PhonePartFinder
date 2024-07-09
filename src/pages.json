@@ -1,8 +1,8 @@
 {
   "globalStyle": {
     "navigationStyle": "default",
-    "navigationBarTitleText": "unibest",
-    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "MOSTON",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF"
   },
@@ -14,26 +14,32 @@
     }
   },
   "tabBar": {
-    "color": "#999999",
-    "selectedColor": "#018d71",
-    "backgroundColor": "#F8F8F8",
-    "borderStyle": "black",
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
     "height": "50px",
     "fontSize": "10px",
     "iconWidth": "24px",
     "spacing": "3px",
     "list": [
       {
-        "iconPath": "static/tabbar/home.png",
-        "selectedIconPath": "static/tabbar/homeHL.png",
+        "iconPath": "static/tabbar/home-off.png",
+        "selectedIconPath": "static/tabbar/home-on.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "iconPath": "static/tabbar/example.png",
-        "selectedIconPath": "static/tabbar/exampleHL.png",
-        "pagePath": "pages/about/about",
-        "text": "关于"
+        "iconPath": "static/tabbar/video-off.png",
+        "selectedIconPath": "static/tabbar/video-on.png",
+        "pagePath": "pages/video-course/video-course",
+        "text": "教程"
+      },
+      {
+        "iconPath": "static/tabbar/feedback-off.png",
+        "selectedIconPath": "static/tabbar/feedback-on.png",
+        "pagePath": "pages/feedback/feedback",
+        "text": "反馈"
       }
     ]
   },
@@ -42,8 +48,7 @@
       "path": "pages/index/index",
       "type": "home",
       "style": {
-        "navigationStyle": "custom",
-        "navigationBarTitleText": "首页"
+        "navigationBarTitleText": "鑫嵩贸易商行"
       }
     },
     {
@@ -51,6 +56,35 @@
       "type": "page",
       "style": {
         "navigationBarTitleText": "关于"
+      }
+    },
+    {
+      "path": "pages/feedback/feedback",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "反馈",
+        "backgroundColor": "#f9f9f9"
+      }
+    },
+    {
+      "path": "pages/video-course/video-course",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "教程"
+      }
+    },
+    {
+      "path": "pages/yhxy-page/yhxy-page",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "用户协议"
+      }
+    },
+    {
+      "path": "pages/ysxy-page/ysxy-page",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "隐私协议"
       }
     }
   ],

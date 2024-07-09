@@ -5,12 +5,16 @@
 
 interface NavigateToOptions {
   url: "/pages/index/index" |
-       "/pages/about/about";
+       "/pages/about/about" |
+       "/pages/feedback/feedback" |
+       "/pages/video-course/video-course" |
+       "/pages/yhxy-page/yhxy-page" |
+       "/pages/ysxy-page/ysxy-page";
 }
 interface RedirectToOptions extends NavigateToOptions {}
 
 interface SwitchTabOptions {
-  url: "/pages/index/index" | "/pages/about/about"
+  url: "/pages/index/index" | "/pages/video-course/video-course" | "/pages/feedback/feedback"
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;
